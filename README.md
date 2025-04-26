@@ -13,22 +13,15 @@ The dataset `Crop_recommendation.csv` contains 2200 samples and 8 features:
 - `rainfall`: Rainfall (mm)
 - `label`: Crop type (22 possible crops)
 
-## 🧠 Machine Learning Models Used
+## 🧠 Machine Learning Model Used
 
 Trained and evaluated the following ML models on the dataset:
 
-- **Logistic Regression** – Accuracy: 91.81%
-- **Gaussian Naive Bayes** – Accuracy: **99.54%** ✅ (Best model)
-- **Support Vector Classifier (SVC)** – Accuracy: 96.81%
-- **K-Nearest Neighbors (KNN)** – Accuracy: 96.81%
-- **Decision Tree Classifier** – Accuracy: 98.86%
-- **Extra Tree Classifier** – Accuracy: 90.45%
-- **Random Forest Classifier** – Accuracy: 99.31%
-- **Bagging Classifier** – Accuracy: 98.63%
-- **Gradient Boosting Classifier** – Accuracy: 98.18%
-- **AdaBoost Classifier** – Accuracy: 9.54% (Underperformed)
 
-The best-performing model, **GaussianNB**, was selected for final crop recommendations.
+- **Random Forest Classifier** – Accuracy: 99.31%
+
+
+
 
 ## 🧪 Example Prediction
 
